@@ -1,0 +1,7 @@
+{
+  "name": "github page",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
