@@ -2,7 +2,7 @@ import React from 'react';
 import { Layout, Typography, Row, Col } from 'antd';
 
 import './Home.css';
-import { GhFilters } from '../../components';
+import { GhFilters, GhCardRepo } from '../../components';
 
 const { Header, Content, Footer } = Layout;
 const { Link } = Typography;
@@ -26,12 +26,26 @@ const Home: React.FC = () => {
 
               <Col xs={24} md={16} className="repositories">
                 <div>Lista de Repositorios encontrados:</div>
+                <Row gutter={16}>
+                  <Col span={12} className="col">
+                    <GhCardRepo />
+                  </Col>
+                  <Col span={12} className="col">
+                    <GhCardRepo />
+                  </Col>
+                  <Col span={12} className="col">
+                    <GhCardRepo />
+                  </Col>
+                  <Col span={12} className="col">
+                    <GhCardRepo />
+                  </Col>
+                </Row>
               </Col>
             </Row>
           </Content>
-      </Layout>
-    </Content>
-
+        </Layout>
+      </Content>
+      
       <Footer className="footer">Github Prueba ©2020 Creado por Douglas Sánchez</Footer>
     </Layout>
   );
