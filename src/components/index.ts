@@ -1,0 +1,1 @@
+export { default as GhFilters } from './filters/Filters';

@@ -1,0 +1,25 @@
+.container {
+  padding: 0 50px;
+}
+
+.container__bg {
+  background: #fff;
+  padding: 24px 0;
+}
+
+.filters {
+  padding: 16px;
+  border-right: 1px solid #ccc;
+}
+
+.repositories {
+  padding: 16px;
+}
+
+.link {
+  color: #fff;
+}
+
+.footer {
+  text-align: center;
+}
