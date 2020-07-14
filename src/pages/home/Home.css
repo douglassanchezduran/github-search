@@ -2,14 +2,27 @@
   padding: 0 16px;
 }
 
+.container--small {
+  padding: 0;
+}
+
 .container__bg {
   background: #fff;
   padding: 24px 0;
 }
 
+.container__bg--small {
+  padding: 0;
+}
+
 .filters {
   padding: 16px;
   border-right: 1px solid #ccc;
+}
+
+.filters--small {
+  border-right: none;
+  padding: 16px 16px 0 16px;
 }
 
 .repositories {
@@ -18,12 +31,20 @@
   overflow-y: scroll;
 }
 
+.repositories--small {
+  height: calc(100vh - 350px);
+}
+
 .link {
   color: #fff;
 }
 
 .footer {
   text-align: center;
+}
+
+.footer--small {
+  padding: 8px;
 }
 
 .col {
