@@ -16,6 +16,7 @@ import { RepositoryFactory } from '../../services/api/RepositoryFactory';
 
 const { Header, Content, Footer } = Layout;
 const { Link, Title } = Typography;
+const date = new Date().getFullYear();
 
 const Home: React.FC = () => {
   const [reposGithub, setReposGithub] = useState<any>([]);
@@ -99,8 +100,9 @@ const Home: React.FC = () => {
           </Content>
         </Layout>
       </Content>
-      
-      <Footer className="footer">Github Prueba ©2020 Creado por Douglas Sánchez</Footer>
+      <Footer className="footer">
+        Github Search ©{date} Creado por Douglas Sánchez
+      </Footer>
     </Layout>
   );
 };

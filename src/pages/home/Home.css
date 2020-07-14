@@ -14,7 +14,7 @@
 
 .repositories {
   padding: 8px 16px;
-  height: calc(100vh - 68px);
+  height: calc(100vh - 116px);
   overflow-y: scroll;
 }
 
