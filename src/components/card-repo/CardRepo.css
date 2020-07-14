@@ -1,0 +1,22 @@
+.action {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.ant-card-meta-detail > div:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.description {
+  margin: 8px 0;
+}
+
+.divider {
+  margin: 8px 0;
+}
+
+.lang > .lang__title {
+  margin-right: 4px;
+  font-weight: bold;
+}

@@ -1,5 +1,5 @@
 .container {
-  padding: 0 50px;
+  padding: 0 16px;
 }
 
 .container__bg {
@@ -13,7 +13,9 @@
 }
 
 .repositories {
-  padding: 16px;
+  padding: 8px 16px;
+  height: calc(100vh - 68px);
+  overflow-y: scroll;
 }
 
 .link {
